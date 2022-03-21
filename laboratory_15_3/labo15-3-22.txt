@@ -1,8 +1,0 @@
-<html>
-<form action="" method="">
-	<input type="text"
-	name="nombre"
-	size="20"
-	maxlenght="10">
-</form>
-</html>
