@@ -1,0 +1,31 @@
+<html>
+<head>
+</head>
+	<body>
+	
+	
+	<script>
+		var n = prompt('ingrese cantidad de alumnos');
+
+		generarTabla(n);
+
+		function generarTabla(n){
+			n = parseInt(n);
+		
+			for(var i = 1; i <= n; i++){
+				if(i == 1){
+					document.write('<table border=2></thead><tr><td>apellido</td><td>nota1</td><td>nota2</td><td>nota3</td><td>promedio</td><td>condicion</td></tr><thead></table>');
+		
+				}
+
+				document.write('<table border=2><tr><td><input type="text" name="apellido"></td><td><input type="number" name="nota1"</td><td><input type="number" name="nota2"</td><td><input type="number" name="nota3"</td><td>promedio</td><td>condicion</td></tr></table>' );
+			
+					
+			}
+			document.write(<>);
+		}
+
+
+	</script>
+	</body>
+</html>

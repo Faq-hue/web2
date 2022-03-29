@@ -1,0 +1,29 @@
+<html>
+<head>
+</head>
+	<body>
+	<script>
+		var nombre;
+		var edad;
+
+		nombre = prompt('Ingresa tu nombre', '');
+		alert('hola '+ nombre );
+		
+		edad = prompt('Ingresa tu edad', '');
+		edad = parseInt(edad);
+
+		if(edad < 18){
+			document.write('<h1>Eres menor de edad</h1>' );		
+		}
+			
+		if(edad >= 18 && edad <= 60){
+			document.write('<h1>Eres un adulto</h1>');		
+		}		
+
+		if(edad > 60){
+			document.write('<h1>Eres un jubilado</h1>');
+		}
+
+	</script>
+	</body>
+</html>

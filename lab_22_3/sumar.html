@@ -1,0 +1,23 @@
+<html>
+<head>
+</head>
+	<body>
+
+	<form name="formulario">
+		<input type="text" name="num1">
+		<input type="text" name="num2">
+		<input type="button" value="calcular" onclick="sumar">
+	<script>
+		function sumar(n1,n2){
+			
+			var n1 = parseInt(formulario.num1.value);
+			var n2 = parseInt(formulario.num2.value);
+			var res = parseInt(n1+n2);
+			
+			alert('resultado: ' + res);			
+		}
+
+
+	</script>
+	</body>
+</html>

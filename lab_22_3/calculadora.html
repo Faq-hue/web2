@@ -1,0 +1,44 @@
+<html>
+<head>
+</head>
+	<body>
+	<script>
+		var n1 = prompt('ingrese n1','0');
+		n1 = parseFloat(n1);
+		var n2 = prompt('ingrese n2','0');
+		n2 = parseFloat(n2);		
+		var res;
+		
+		var op = prompt('suma = 1, resta = 2, division = 3, producto = 4');		
+		
+		switch(op){
+
+		case '1': res = (n1+n2);
+			alert(res);
+			break;
+		
+		case '2': res = (n1-n2);
+			alert(res);
+			break;
+
+		case '3': 
+			if(n2 == 0){
+				alert('No se puede dividir por 0');
+				break;								
+				}	
+		
+			res = (n1/n2);
+			alert(res);
+			break;
+
+		case '4': res = (n1*n2);
+			alert(res);
+			break;
+
+		default: alert('opcion invalida');
+}		
+
+
+	</script>
+	</body>
+</html>
