@@ -1,0 +1,18 @@
+.cent {
+  height: fit-content;
+  width: fit-content;
+  background-color: black;
+}
+
+.box{
+    background-color: black;
+    color:aliceblue;
+}
+
+.number {
+    color: red;
+}
+
+.operation {
+    color:blue;
+}
