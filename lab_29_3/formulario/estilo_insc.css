@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  line-height: 25px;
+  background-color: aqua;
+}
+
+#title {
+  color: deeppink;
+  font-size: xx-large;
+}
+
+.medusa {
+    background-repeat: space;    
+}

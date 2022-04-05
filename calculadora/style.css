@@ -1,7 +1,6 @@
-.cent {
-  height: fit-content;
-  width: fit-content;
-  background-color: black;
+body {
+    display: flex;
+    justify-content: center;
 }
 
 .box{
