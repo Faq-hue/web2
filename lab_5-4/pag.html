@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delta</title>
+  </head>
+  <body>
+    <p style="font-size: x-large">Ingreso de Productos</p>
+    <form action="get">
+      <table>
+        <tr>
+          <td>Codigo:</td>
+          <td><input type="text" name="in" /></td>
+        </tr>
+        <tr>
+          <td>Descripcion:</td>
+          <td><input type="text" name="in" /></td>
+        </tr>
+        <tr>
+          <td>Marca:</td>
+          <td><input type="text" name="in" /></td>
+        </tr>
+        <tr>
+          <td>Precio:</td>
+          <td><input type="number" name="in" /></td>
+        </tr>
+        <tr>
+          <td>Cantidad:</td>
+          <td><input type="number" name="in" /></td>
+        </tr>
+        <tr>
+          <td>IVA:</td>
+          <td><select name="in" >
+              <option value="0.105">10.5%</option>
+              <option value="0.21">21%</option>
+          </select></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="button" value="Registrar Producto" onclick="get()" />
+          </td>
+        </tr>
+      </table>
+      <table border="2">
+          <tr><td>Codigo</td><td>Descripcion</td><td>Marca</td><td>Precio</td><td>Cantidad</td><td>IVA</td><td>Subtotal</td><td>Acciones</td></tr>
+          <div id="result"><tr><td>taco</td></tr></div>
+      </table>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
